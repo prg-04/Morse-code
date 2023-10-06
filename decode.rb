@@ -14,7 +14,7 @@ class MorseCodeDecoder
   end
 
   def self.decode_word(morse_word)
-    morse_word.split(' ').map { |morse_char| decode_char(morse_char) }.join('')
+    morse_word.split.map { |morse_char| decode_char(morse_char) }.join('')
   end
 
   def self.decode_message(morse_message)
