@@ -7,7 +7,7 @@ class MorseCodeDecoder
     '--.-' => 'Q', '.-.' => 'R', '...' => 'S', '-' => 'T',
     '..-' => 'U', '...-' => 'V', '.--' => 'W', '-..-' => 'X',
     '-.--' => 'Y', '--..' => 'Z'
-  }
+  }.freeze
 
   def self.decode_char(morse_char)
     MORSE_CODE_DICT[morse_char] || ''
@@ -22,6 +22,6 @@ class MorseCodeDecoder
   end
 end
 
-morse_message = ".- -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ..."
+morse_message = '.- -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
 decoded_message = MorseCodeDecoder.decode_message(morse_message)
 puts decoded_message
