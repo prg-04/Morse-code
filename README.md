@@ -128,6 +128,7 @@ Feel free to check the [issues page](https://github.com/prg-04/Morse-code/issues
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
+
 ## ⭐️ Show your support <a name="support"></a>
 
 
